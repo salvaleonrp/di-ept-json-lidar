@@ -2,7 +2,7 @@
 
 This repo is a sample workspace to list and download the EPT JSON dataset and Lidar data from the [USGS 3DEP Lidar Point clouds published in a public Amazon S3 bucket](https://registry.opendata.aws/usgs-lidar/).<br/>
 
-Credits to Michael Grieco of AllPointsGIS for requesting ESRI Support for this sample workspace.
+Credits to Michael Grieco of AllPointsGIS for ths use case.
 
 ## Features
 
@@ -51,11 +51,11 @@ ArcGIS Data Interoperability is an OEM version of Safe Software's FME Desktop. D
 
 ## Resources
 
-Below are links to essential references for this repo.
-[USGS-Lidar repo](https://github.com/hobu/usgs-lidar/)
-[USGS Entwine viewer](https://usgs.entwine.io/) - link to EPT, Cesium and Potree URLS to the data
-[Open Topography viewer](https://portal.opentopography.org/datasets) - Topo dataset derivatives
-[EPT format resource](https://entwine.io/entwine-point-tile.html)
+Below are links to essential references for this repo.<br/>
+[USGS-Lidar repo](https://github.com/hobu/usgs-lidar/)<br/>
+[USGS Entwine viewer](https://usgs.entwine.io/) - link to EPT, Cesium and Potree URLS to the data<br/>
+[Open Topography viewer](https://portal.opentopography.org/datasets) - Topo dataset derivatives<br/>
+[EPT format resource](https://entwine.io/entwine-point-tile.html)<br/>
 
 ## Issues
 
