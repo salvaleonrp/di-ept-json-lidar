@@ -24,6 +24,7 @@ Being considered:
 
 ## Instructions
 
+Disclaimer: This sample workspace is a functional workspace that require minimum configuration.
 1. Download the workspace or fork this repo.<br/>
 2. Open the Workspace using Data Interoperability or FME Desktop.<br/>
 3. Configure your parameters and map your writer feature type to your destination file geodatabase<br/>
