@@ -29,7 +29,7 @@ Being considered:
 3. Configure your parameters and map your writer feature type to your destination file geodatabase<br/>
 4. Run translation<br/>
 
-## Reader and Writer formats and Transformers used
+## Reader/Writer formats and Transformers primarily used
 Amazon S3 Bucket reader<br/>
 EPT reader<br/>
 JSONFragmenter<br/>
