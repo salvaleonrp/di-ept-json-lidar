@@ -5,6 +5,7 @@ This repo is a sample workspace to list and download the EPT JSON dataset and Li
 Credits to Michael Grieco of AllPointsGIS for requesting ESRI Support for this sample workspace.
 
 ## Features
+
 Completed
 * Read directly from the USGS public bucket <br/>
 * List all projects from the bucket<br/>
@@ -12,35 +13,36 @@ Completed
 * Read the EPT JSON Lidar dataset<br/>
 * Create the coverage of each project using the boundary.json file<br/>
 * Read, split and create data derivatives from the Lidar point cloud.<br/>
+
 Being considered:
 * Add a State geometry filter parameter.<br/>
 * Share as web tool<br/>
 
 ## Warning: 
-1. FMW or Workbench workspaces are readable in text format in Git. Please do not make any edits on the fmw files unless you absolutely know what you are doing when making changes.
-2. Not all workspaces or workspace templates are expected to run after being downloaded. Web Connections or database connections must be added or reconfigured in the Workbench Tools Options dialog prior to running these samples.
+1. FMW or Workbench workspaces are readable in text format in Git. Please do not make any edits on the fmw files unless you absolutely know what you are doing when making changes.<br/>
+2. Not all workspaces or workspace templates are expected to run after being downloaded. Web Connections or database connections must be added or reconfigured in the Workbench Tools Options dialog prior to running these samples.<br/>
 
 ## Instructions
 
-1. Download the workspace or fork this repo.
-2. Open the Workspace using Data INteroperability or FME Desktop.
-3. Configure your parameters and map your writer feature type to your destination file geodatabase
-4. Run translation
+1. Download the workspace or fork this repo.<br/>
+2. Open the Workspace using Data INteroperability or FME Desktop.<br/>
+3. Configure your parameters and map your writer feature type to your destination file geodatabase<br/>
+4. Run translation<br/>
 
 ## Reader and Writer formats and Transformers used
-Amazon S3 Bucket reader
-EPT reader
-JSONFragmenter
-FILEGDB writer
+Amazon S3 Bucket reader<br/>
+EPT reader<br/>
+JSONFragmenter<br/>
+FILEGDB writer<br/>
 
 ## Requirements
 
-* ArcGIS Pro 2.9 or  higher
-* Data Interoperability for ArcGIS Pro 2.9 or higher
+* ArcGIS Pro 2.9 or  higher<br/>
+* Data Interoperability for ArcGIS Pro 2.9 or higher<br/>
 
-For Sharing as web tool solution
-* ArcGIS Server 10.9.1
-* Data Interoperability for Server 10.9.1 or higher
+For Sharing as web tool solution<br/>
+* ArcGIS Server 10.9.1<br/>
+* Data Interoperability for Server 10.9.1 or higher<br/>
 
 
 ## Product information
