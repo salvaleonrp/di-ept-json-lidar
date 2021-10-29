@@ -1,4 +1,4 @@
-# di-ept-json-lidar
+# di-ept-json-lidar-expanded
 
 This repo is a sample workspace to list and download the EPT JSON dataset and Lidar data from the [USGS 3DEP Lidar Point clouds published in a public Amazon S3 bucket](https://registry.opendata.aws/usgs-lidar/).<br/>
 
