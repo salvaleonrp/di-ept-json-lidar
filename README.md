@@ -21,13 +21,21 @@ Being considered:
 
 Disclaimer: This sample workspace is a functional workspace that require minimum configuration.
 1. Open the [USGS Entwine viewer](https://usgs.entwine.io/) and identify your project.
-2. Copy the URL of your identified project from the viewer removing the "/ept.json" from the URL path. The sample workspace URL(https://s3.us-west-2.amazonaws.com/usgs-lidar-public/ARRA-TX_CalhounCo_2010) wiil be used as the S3 bucket in the FMW file.
-3. Download the repo using Github or from your browser go to the [fmw file](https://github.com/salvaleonrp/di-ept-json-lidar/blob/main/EptLasToRaster28Incomplete.fmw) and download by right clicking on RAW as shown from a Google browser below.<br/>
+2. Copy the URL of your identified project from the viewer removing the "/ept.json" from the URL path. The sample workspace URL https://s3.us-west-2.amazonaws.com/usgs-lidar-public/ARRA-TX_CalhounCo_2010 wiil be used as the Dataset parameter in the FeatureReader transformer of the workspace.<br/>
+![image](https://user-images.githubusercontent.com/87094963/139481331-df8ccd78-7cc2-413e-a7dc-da7986709002.png)
+
+3. Download the repo using Github Desktop or from your browser go to the [fmw file](https://github.com/salvaleonrp/di-ept-json-lidar/blob/main/EptLasToRaster28Incomplete.fmw) and download by right clicking on RAW as shown from a Google browser below.<br/>
 
 ![image](https://user-images.githubusercontent.com/87094963/139471922-a740933d-ef61-4419-8505-a744a3ba70c8.png)
  
 4. Open the Workspace using Data Interoperability or FME Desktop.
-5. Configure the S3BucketReader with your identified URL or do not change the sample URL
+5. On the FeatureReader transformer, leave the configured parameters or change it with your identified URL, following the screenshot below the steps configure the ept.json feature type. <br/>
+ Step 1. <br/>
+![image](https://user-images.githubusercontent.com/87094963/139481888-75747c69-c981-4377-bb8f-4faf53c9eb86.png)
+ Step 2. <br/>
+![image](https://user-images.githubusercontent.com/87094963/139482183-df10c0ea-0cba-4b78-97a7-31730b4f9e11.png)
+
+
 6. Configure the writer feature type with your destination folder
 7. Run translation
 
