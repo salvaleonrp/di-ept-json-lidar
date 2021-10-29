@@ -2,7 +2,7 @@
 
 This repo is a sample workspace to list and download the EPT JSON dataset and Lidar data from the [USGS 3DEP Lidar Point clouds published in a public Amazon S3 bucket](https://registry.opendata.aws/usgs-lidar/).<br/>
 
-Credits to Michael Grieco of AllPointsGIS for requesting ESRI Support for this sample workspace.
+Credits
 
 ## Features
 Completed
