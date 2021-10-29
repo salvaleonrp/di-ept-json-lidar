@@ -5,18 +5,21 @@ This repo is a sample workspace to read an EPT JSON dataset from the [USGS 3DEP 
 Credits to Michael Grieco of AllPointsGIS for  this user suggested workflow. Michael intends to instruct his students in getting public data Las data from the USGS and create raster data from them.
 
 ## Features
+
 Completed
 * Read the EPT JSON Lidar dataset<br/>
 * Read, split and create data derivatives from the Lidar point cloud.<br/>
+
 Being considered:
 * Share as web tool<br/>
 
 ## Warning: 
-1. FMW or Workbench workspaces are readable in text format in Git. Please do not make any edits on the fmw files unless you absolutely know what you are doing when making changes.
-2. Not all workspaces or workspace templates are expected to run after being downloaded. Web Connections or database connections must be added or reconfigured in the Workbench Tools Options dialog prior to running these samples.
+1. FMW or Workbench workspaces are readable in text format in Git. Please do not make any edits on the fmw files unless you absolutely know what you are doing when making changes.<br/>
+2. Not all workspaces or workspace templates are expected to run after being downloaded. Web Connections or database connections must be added or reconfigured in the Workbench Tools Options dialog prior to running these samples.<br/>
 
 ## Instructions
 
+Disclaimer: This sample workspace is a functional workspace that require minimum configuration.
 1. Open the [USGS Entwine viewer](https://usgs.entwine.io/) and identify your project.
 2. Copy the URL of your identified project from the viewer. The is the [URL](https://s3.us-west-2.amazonaws.com/usgs-lidar-public/ARRA-TX_CalhounCo_2010) used for this workspace.
 3. Open the Workspace using Data Interoperability or FME Desktop.
@@ -44,11 +47,11 @@ ArcGIS Data Interoperability is an OEM version of Safe Software's FME Desktop. D
 
 ## Resources
 
-Below are links to essential references for this repo.
-[USGS-Lidar repo](https://github.com/hobu/usgs-lidar/)
-[USGS Entwine viewer](https://usgs.entwine.io/) - link to EPT, Cesium and Potree URLS to the data
-[Open Topography viewer](https://portal.opentopography.org/datasets) - Topo dataset derivatives
-[EPT format resource](https://entwine.io/entwine-point-tile.html)
+Below are links to essential references for this repo.<br/>
+[USGS-Lidar repo](https://github.com/hobu/usgs-lidar/)<br/>
+[USGS Entwine viewer](https://usgs.entwine.io/) - link to EPT, Cesium and Potree URLS to the data<br/>
+[Open Topography viewer](https://portal.opentopography.org/datasets) - Topo dataset derivatives<br/>
+[EPT format resource](https://entwine.io/entwine-point-tile.html)<br/>
 
 ## Issues
 
