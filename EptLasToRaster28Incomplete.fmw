@@ -1,7 +1,7 @@
 #! <?xml version="1.0" encoding="UTF-8" ?>
 #! <WORKSPACE
 #    Command-line to run this workspace:
-#        "C:\Program Files\ArcGIS\Data Interoperability for ArcGIS Pro\fme.exe" "C:\Users\rena9994\OneDrive - Esri\My Documents\DI\Support\S3Bucket_AllPointsGIS\LasToRaster28Incomplete.fmw"
+#        "C:\Program Files\ArcGIS\Data Interoperability for ArcGIS Pro\fme.exe" "C:\di-ept-json-lidar\LasToRaster28Incomplete.fmw"
 #    
 #!   ARCGIS_COMPATIBILITY="ARCGISPRO"
 #!   ATTR_TYPE_ENCODING="SDF"
