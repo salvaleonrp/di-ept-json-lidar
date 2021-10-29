@@ -7,8 +7,8 @@ Credits to Michael Grieco of AllPointsGIS for  this user suggested workflow. Mic
 ## Features
 
 Completed
-* Read the EPT JSON Lidar dataset<br/>
-* Read, split and create data derivatives from the Lidar point cloud.<br/>
+* Read the EPT JSON <br/>
+* Read the Las dataset, split and create data derivatives from the Lidar point cloud.<br/>
 
 Being considered:
 * Share as web tool<br/>
