@@ -32,9 +32,9 @@ Disclaimer: This sample workspace is a functional workspace that require minimum
 7. Run translation
 
 ## Reader and Writer formats and Transformers used
-EPT reader (started with ArcGIS Pro 2.7 & FME 2020)
-PointCloudSplitter
-SurfaceModeller
+EPT reader (started with ArcGIS Pro 2.7 & FME 2020)<br/>
+PointCloudSplitter<br/>
+SurfaceModeller<br/>
 
 ## Workspace Requirements
 * ArcGIS Pro 2.8 or  higher
