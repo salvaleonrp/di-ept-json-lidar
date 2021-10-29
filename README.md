@@ -21,7 +21,7 @@ Being considered:
 
 Disclaimer: This sample workspace is a functional workspace that require minimum configuration.
 1. Open the [USGS Entwine viewer](https://usgs.entwine.io/) and identify your project.
-2. Copy the URL of your identified project from the viewer. The is the [URL](https://s3.us-west-2.amazonaws.com/usgs-lidar-public/ARRA-TX_CalhounCo_2010) used for this workspace.
+2. Copy the URL of your identified project from the viewer. The is the URL(https://s3.us-west-2.amazonaws.com/usgs-lidar-public/ARRA-TX_CalhounCo_2010) used for this workspace.
 3. Download the repo using Github or from your browser go to the [fmw file](https://github.com/salvaleonrp/di-ept-json-lidar/blob/main/EptLasToRaster28Incomplete.fmw) and download by right clicking on RAW as shown from a Google browser below.<br/>
 
 ![image](https://user-images.githubusercontent.com/87094963/139471922-a740933d-ef61-4419-8505-a744a3ba70c8.png)
