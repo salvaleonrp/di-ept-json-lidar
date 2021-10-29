@@ -1,14 +1,19 @@
-# di-ept-json-lidar-simple
+# di-ept-json-lidar
 
-This repo is a sample workspace to read an EPT JSON dataset from the [USGS 3DEP Lidar Point clouds published in a public Amazon S3 bucket](https://registry.opendata.aws/usgs-lidar/), read the Lidar data and create raster data and other derivatives. .<br/>
+This repo is a sample workspace to list and download the EPT JSON dataset and Lidar data from the [USGS 3DEP Lidar Point clouds published in a public Amazon S3 bucket](https://registry.opendata.aws/usgs-lidar/).<br/>
 
-Credits to Michael Grieco of AllPointsGIS for  this user suggested workflow. Michael intends to instruct his students in getting public data Las data from the USGS and create raster data from them.
+Credits to Michael Grieco of AllPointsGIS for requesting ESRI Support for this sample workspace.
 
 ## Features
 Completed
+* Read directly from the USGS public bucket <br/>
+* List all projects from the bucket<br/>
+* Filter project list (Optional - by typing a state abbreviation in user paramter) <br/>   
 * Read the EPT JSON Lidar dataset<br/>
+* Create the coverage of each project using the boundary.json file<br/>
 * Read, split and create data derivatives from the Lidar point cloud.<br/>
 Being considered:
+* Add a State geometry filter parameter.<br/>
 * Share as web tool<br/>
 
 ## Warning: 
@@ -17,23 +22,23 @@ Being considered:
 
 ## Instructions
 
-1. Open the [USGS Entwine viewer](https://usgs.entwine.io/) and identify your project.
-2. Copy the URL of your identified project from the viewer. The is the [URL](https://s3.us-west-2.amazonaws.com/usgs-lidar-public/ARRA-TX_CalhounCo_2010) used for this workspace.
-3. Open the Workspace using Data Interoperability or FME Desktop.
-4. Configure the S3BucketReader with your identified URL or do not change the sample URL
-5. Configure the writer feature type with your destination folder
-6. Run translation
+1. Download the workspace or fork this repo.
+2. Open the Workspace using Data INteroperability or FME Desktop.
+3. Configure your parameters and map your writer feature type to your destination file geodatabase
+4. Run translation
 
 ## Reader and Writer formats and Transformers used
-EPT reader (started with ArcGIS Pro 2.7 & FME 2020)
-PointCloudSplitter
-SurfaceModeller
+Amazon S3 Bucket reader
+EPT reader
+JSONFragmenter
+FILEGDB writer
 
-## Workspace Requirements
-* ArcGIS Pro 2.8 or  higher
+## Requirements
+
+* ArcGIS Pro 2.9 or  higher
 * Data Interoperability for ArcGIS Pro 2.9 or higher
 
-For Sharing as web tool solution later
+For Sharing as web tool solution
 * ArcGIS Server 10.9.1
 * Data Interoperability for Server 10.9.1 or higher
 
