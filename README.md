@@ -30,9 +30,9 @@ Disclaimer: This sample workspace is a functional workspace that require minimum
  
 4. Open the Workspace using Data Interoperability or FME Desktop.
 5. On the FeatureReader transformer, leave the configured parameters or change it with your identified URL, following the screenshot below the steps configure the ept.json feature type. <br/>
- Step 1. <br/>
+ Step a. <br/>
 ![image](https://user-images.githubusercontent.com/87094963/139481888-75747c69-c981-4377-bb8f-4faf53c9eb86.png)
- Step 2. <br/>
+ Step b. <br/>
 ![image](https://user-images.githubusercontent.com/87094963/139482183-df10c0ea-0cba-4b78-97a7-31730b4f9e11.png)
 
 
