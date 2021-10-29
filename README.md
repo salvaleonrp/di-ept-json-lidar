@@ -1,4 +1,4 @@
-# di-ept-json-lidar-simple
+# di-ept-json-lidar
 
 This repo is a sample workspace to read an EPT JSON dataset from the [USGS 3DEP Lidar Point clouds published in a public Amazon S3 bucket](https://registry.opendata.aws/usgs-lidar/), read the Lidar data and create raster data and other derivatives. .<br/>
 
@@ -22,7 +22,7 @@ Being considered:
 Disclaimer: This sample workspace is a functional workspace that require minimum configuration.
 1. Open the [USGS Entwine viewer](https://usgs.entwine.io/) and identify your project.
 2. Copy the URL of your identified project from the viewer. The is the [URL](https://s3.us-west-2.amazonaws.com/usgs-lidar-public/ARRA-TX_CalhounCo_2010) used for this workspace.
-3. Download the workspace EptLasToRaster28Incomplete.fmw from the repo
+3. Download or fork the repo 
 4. Open the Workspace using Data Interoperability or FME Desktop.
 5. Configure the S3BucketReader with your identified URL or do not change the sample URL
 6. Configure the writer feature type with your destination folder
