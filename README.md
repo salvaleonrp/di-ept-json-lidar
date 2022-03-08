@@ -1,6 +1,6 @@
 # di-ept-json-lidar
 
-This repo is a sample workspace to read an EPT JSON dataset from the [USGS 3DEP Lidar Point clouds published in a public Amazon S3 bucket](https://registry.opendata.aws/usgs-lidar/), read the Lidar data and create raster data and other derivatives.<br/>
+This repo is a sample workspace to read an EPT JSON dataset from the [USGS 3DEP Lidar Point clouds published in a public Amazon S3 bucket](https://registry.opendata.aws/usgs-lidar/), read the Lidar data. Contributions to enhance the FME workspace are welcome. Creating raster, 3D and feature outputs from the LAS datasets would be desirable enhancements to this worksapce.<br/>
 
 Credits to Michael Grieco of AllPointsGIS for  this user suggested workflow. Michael intends to instruct his students in getting public data Las data from the USGS and create raster data from them.
 
